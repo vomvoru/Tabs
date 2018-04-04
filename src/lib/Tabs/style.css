@@ -1,0 +1,39 @@
+.tab-header-item input[type="radio"] {
+  display: none;
+}
+
+.tab-header {
+  display: flex;
+}
+.tab-header-item {
+  flex: 1;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  border-bottom: 0px;
+}
+
+.tab-body-item {
+  background-color: #dd0;
+  height: 500px;
+  padding: 15px;
+  border: 1px solid #aaa;
+}
+
+.tab-header-checked-item {
+  background-color: #dd0;
+}
+
+.tab-body-item {
+  display: none;
+}
+
+.tab-body-item {
+  display: none;
+}
+
+.tab-body-show-item {
+  display: block;
+}
